@@ -10,7 +10,12 @@ public class SplashScreenController : MonoBehaviour
     {
         if(Input.anyKey)
         { 
-            SceneManager.LoadScene(1);
+            LoadFirstScene();
         }
+    }
+
+    void LoadFirstScene()
+    {
+        SceneManager.LoadScene(1);
     }
 }
